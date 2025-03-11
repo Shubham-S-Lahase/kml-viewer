@@ -4,7 +4,7 @@ const MapView = ({ geoJson }) => {
   return (
     <MapContainer
       center={[20, 78]}
-      zoom={5}
+      zoom={1}
       className="h-96 w-full border rounded-lg"
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
